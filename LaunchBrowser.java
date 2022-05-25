@@ -16,12 +16,11 @@ public class LaunchBrowser {
 
         // Bewlow I created instance of different browsers
        WebDriver chro = new ChromeDriver();
+        chro.get("https://demo.nopcommerce.com/");
        WebDriver fire = new FirefoxDriver();
+        fire.get("https://demo.nopcommerce.com/");
        WebDriver edge = new EdgeDriver();
 
-
-       chro.get("https://demo.nopcommerce.com/");
-       fire.get("https://demo.nopcommerce.com/");
        edge.get("https://demo.nopcommerce.com/");
 
 
