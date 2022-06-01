@@ -8,11 +8,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class LaunchBrowser {
 
     public static void main(String[] args) {
-
+        //Set Property
         System.setProperty("webdriver.chrome.driver","C:\\Users\\rohitPatel\\IdeaProjects\\Software\\Driver\\chromedriver.exe");
         System.setProperty("webdriver.gecko.driver","C:\\Users\\rohitPatel\\IdeaProjects\\Software\\Driver\\geckodriver.exe");
         System.setProperty("webdriver.edge.driver","C:\\Users\\rohitPatel\\IdeaProjects\\Software\\Driver\\msedgedriver.exe");
-
 
         // Bewlow I created instance of different browsers
        WebDriver chro = new ChromeDriver();
