@@ -43,7 +43,7 @@ public class Registration {
                     Thread.sleep(4000);
                     driver.findElement(By.xpath("//input[@id='Newsletter']")).click();
                     Thread.sleep(4000);
-                    driver.findElement(By.id("Password")).sendKeys("Amitabh123");
+                    driver.findElement(By.id("Password")).sendKeys("Amitabh1234");
                     Thread.sleep(2000);
                     driver.findElement(By.id("ConfirmPassword")).sendKeys("Amitabh123");
                     Thread.sleep(2000);
